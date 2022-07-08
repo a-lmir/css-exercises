@@ -1,0 +1,17 @@
+*{
+    font-size: 18px;
+}
+.number{
+    background: pink;;
+}
+.number.three{
+    font-size: 24px;
+}
+#n2{
+    color:blue;
+    font-size: 24px;
+}
+#n4{
+    font-weight: bold;
+    background-color: lightgreen;
+}

@@ -1,12 +1,21 @@
 body {
   background: #eee;
   font-family: sans-serif;
+  box-sizing: border-box;
 }
-
+.button-container,
+.title,
+.content{
+  margin:10px;
+  display:block;
+  padding:12px;
+}
 .card {
-  width: 400px;
+  width: 500px;
+  height: auto;
   background: #fff;
   margin: 16px auto;
+  padding:10px;
 }
 
 .title {
@@ -19,9 +28,16 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 8px;;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display:block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 8px 24px;
+  
 }
